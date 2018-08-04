@@ -1,0 +1,21 @@
+{
+    "name": "johnsnook/yii2-pgsql-admin",
+    "description": "An administration tool for Postgresql",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","postgresql"," postgres","pgsql"," admin"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "John Michael Snook",
+            "email": "jsnook@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "johnsnook\\pgsqlAdmin\\": ""
+        }
+    }
+}
